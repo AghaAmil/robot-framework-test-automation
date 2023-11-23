@@ -160,4 +160,5 @@ cython_debug/
 #.idea/
 
 # macos files
-.DS_Store/
+.DS_Store
+.idea/.DS_Store
