@@ -65,4 +65,28 @@ conda deactivate
 # going to the (base) environment by default
 ```
 
+# Installing Robot Framework
 To leave all the conda environments, type the above command in the (base) environment.
+The easiest way to use pip is by letting it find and download packages it installs from the [Python Package Index (PyPI)](https://pypi.org/project/robotframework), but it can also install packages downloaded from the PyPI separately. The most common usages are shown below and [pip](https://pip.pypa.io/) documentation has more information and examples.
+
+```
+# Install the latest version (does not upgrade)
+pip install robotframework
+
+# Upgrade to the latest stable version
+pip install --upgrade robotframework
+
+# Uninstall
+pip uninstall robotframework
+```
+
+[SeleniumLibrary](https://github.com/robotframework/SeleniumLibrary) is a web testing library for [Robot Framework](https://robotframework.org/) that utilizes the [Selenium](https://www.seleniumhq.org/) tool internally. The project is hosted on [GitHub](https://github.com/robotframework/SeleniumLibrary) and downloads can be found from [PyPI](https://pypi.python.org/pypi/robotframework-seleniumlibrary).
+
+To Install required libraries, run the following command:
+```
+pip install robotframework-seleniumlibrary
+```
+
+🏠 `RequestsLibrary` is a [Robot Framework](https://robotframework.org/) library aimed to provide HTTP api testing functionalities by wrapping the well known [Python Requests Library](https://github.com/kennethreitz/requests).
+
+
