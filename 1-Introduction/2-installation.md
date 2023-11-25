@@ -89,4 +89,13 @@ pip install robotframework-seleniumlibrary
 
 🏠 `RequestsLibrary` is a [Robot Framework](https://robotframework.org/) library aimed to provide HTTP api testing functionalities by wrapping the well known [Python Requests Library](https://github.com/kennethreitz/requests).
 
+# Webdrivers installation on MacOS
+
+1. Download the Chrome WebDriver Zip File matching with your Chrome version and Apple Chip from **[here](https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location/)** and extract the **chromedriver.**
+2. Copy the **chromedriver** and paste it to **“/usr/local/bin”** (If this folder doesn’t exist then create one)
+3. Open a terminal inside the **bin** folder and run the following command so that MacOS can verify the app.
+
+```
+xattr -d com.apple.quarantine chromedriver
+```
 
