@@ -99,3 +99,6 @@ pip install robotframework-seleniumlibrary
 xattr -d com.apple.quarantine chromedriver
 ```
 
+# Pycharm Plugin for Robot Framework
+Download it from [here](https://plugins.jetbrains.com/plugin/17424-intellibot-patched).
+
