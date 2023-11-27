@@ -37,3 +37,32 @@ A Robot Framework project consist of requires below list:
     - /ProductOne
     - /ProductTwo ... 
 
+## Script File Sections
+Conventions means having some well-defined and meaningful sections within our script files.
+One of the conventions of robot framework is that it has four obvious sections that you might see in your test automation projects.
+
+- **Settings** -  where we can declare libraries and resources
+- **Variables** - where we can declare global variables that will be used throughout your tests.
+- **Test Cases** - that hold your various test cases
+- **Keywords** - that can hold keywords
+
+Let's dive in for a better picture:
+
+- Settings
+  - Documentation ----- Some text information about the suit
+  - Library ----- SomeLibraryName
+  - Resource ----- ../Resources/SomeResourceFile.robot
+  - Suite Setup/Suite Teardown ----- Some Keyword
+  - Test Setup/Suite Teardown ----- Some Keyword
+  - Test Timeout ----- 5s
+- Variables
+- Test Cases
+  - [Documentation] ----- Some info about the test
+  - [Tags] ----- Tag1, Tag2
+  - [Timeout] ----- 10s
+- Keywords (usually in different file than your tests)
+
+**Note:** An important thing to notice is that in the settings section, when you include these various items, they do not have square brackets around them, but any time you include those items in test cases or keywords, you're going to use these square brackets around them.
+
+
+
